@@ -4,13 +4,11 @@ body {
     margin: 0 auto;
     padding: 0px;
     overflow-x: hidden;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 14px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 21px;
+    color: #fff;
     text-align: left;
     background-color: #3E3B4F;
-    background-repeat: repeat-y;
-    background-size: 100px;
-    background-position: 5% 3%;
   }
   
   #header-text {
@@ -19,17 +17,18 @@ body {
     position: absolute;
     top: 120px;
     left: 180px;
-    min-width:1000px;
-    text-align:left;
+    min-width: 1000px;
+    text-align: left;
+    line-height: 25px;
   }
   
   h1 {
-    font-size: 8vmax;
+    font-size: 6vmax;
+    font-weight: 900;
   }
   
   h2 {
-    font-family: 'Oswald', sans-serif;
-    font-size: 30px;
+    font-size: 4vmax;
   }
   
   a:link, a:active, a:visited {
@@ -45,23 +44,9 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-column-gap: 10%;
-    margin: 5% 15% 5% 15%;
+    margin: 20% 0 0 0;
     align-items: left;
     justify-items: left;
-  }
-  
-  img {
-    max-width: 100%;
-    min-width: 1000px;
-    display: block;
-  }
-  
-  #img-caption {
-    font-size: 3.5vmax;
-    text-align: left;
-    line-height: 0;
-    position: absolute;
-    top: 25%;
   }
   
   #about-me {
