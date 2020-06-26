@@ -1,9 +1,19 @@
 // typography
 @import url('https://fonts.googleapis.com/css?family=Inconsolata:400,700');
-$inconsolata:       'Inconsolata', monospace;
+$inconsolata: 'Inconsolata', monospace;
+$font__size: 14px;
+$font__sizelg: 36px;
+$font__sizemed: 28px;
+$font__weight: 400;
+$font__line-height: 1.5;
 
 // colors
-$color__black:      #000000;
+$color__black: #000;
+$color__white: #fff;
+$color__litepurple: #B996C2;
+$color__purple: #836c92;
+$color__drkpurple: #28202d;
+
 
 
 body {
@@ -13,53 +23,45 @@ body {
   padding: 0px;
   overflow-x: hidden;
   font-family: $inconsolata;
-  font-size: 21px;
-  color: #fff;
+  font-size: $font__size;
+  font-weight: $font__weight;
+  line-height: $font__line-height;
+  color: $color__black;
   text-align: left;
-  background-color: #3E3B4F;
-}
-
-#header-text {
-  font-family: $inconsolata;
-  color: #fff;
-  position: absolute;
-  top: 120px;
-  left: 180px;
-  min-width: 1000px;
-  text-align: left;
-  line-height: 25px;
+  background-color: $color__purple;
 }
 
 h1 {
-  font-size: 6vmax;
+  font-size: $font__sizelg;
   font-weight: 900;
+  line-height: 60px;
 }
 
 h2 {
-  font-size: 4vmax;
+  font-size: $font__sizemed;
 }
 
 a:link, a:active, a:visited {
+  color: $color__drkpurple;
   text-decoration-line: none;
   font-weight: bold;
 }
 
 a:hover {
-  color: #fff;
+  color: $color__litepurple;
+}
+
+a:before {
+  content: '';
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-right: 15px;
 }
 
 .container {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-column-gap: 10%;
-  margin: 20% 0 0 0;
-  align-items: left;
-  justify-items: left;
-}
-
-#about-me {
   max-width: 560px;
-  margin: 0 auto;
+  margin: 120px 0 0 150px;
   text-align: left;
   border-style: none;
   padding: 25px;
