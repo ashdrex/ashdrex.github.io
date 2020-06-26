@@ -1,0 +1,15 @@
+body { width: 100%; height: 100%; margin: 0 auto; padding: 0px; overflow-x: hidden; font-family: 'Quicksand', sans-serif; font-size: 21px; color: #fff; text-align: left; background-color: #3E3B4F; }
+
+#header-text { font-family: 'Jaldi', sans-serif; color: #fff; position: absolute; top: 120px; left: 180px; min-width: 1000px; text-align: left; line-height: 25px; }
+
+h1 { font-size: 6vmax; font-weight: 900; }
+
+h2 { font-size: 4vmax; }
+
+a:link, a:active, a:visited { text-decoration-line: none; font-weight: bold; }
+
+a:hover { color: #fff; }
+
+.container { display: grid; grid-template-columns: 1fr 1fr; grid-column-gap: 10%; margin: 20% 0 0 0; align-items: left; justify-items: left; }
+
+#about-me { max-width: 560px; margin: 0 auto; text-align: left; border-style: none; padding: 25px; }
