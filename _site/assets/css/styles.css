@@ -1,6 +1,7 @@
-body { width: 100%; height: 100%; margin: 0 auto; padding: 0px; overflow-x: hidden; font-family: 'Quicksand', sans-serif; font-size: 21px; color: #fff; text-align: left; background-color: #3E3B4F; }
+@import url("https://fonts.googleapis.com/css?family=Inconsolata:400,700");
+body { width: 100%; height: 100%; margin: 0 auto; padding: 0px; overflow-x: hidden; font-family: "Inconsolata", monospace; font-size: 21px; color: #fff; text-align: left; background-color: #3E3B4F; }
 
-#header-text { font-family: 'Jaldi', sans-serif; color: #fff; position: absolute; top: 120px; left: 180px; min-width: 1000px; text-align: left; line-height: 25px; }
+#header-text { font-family: "Inconsolata", monospace; color: #fff; position: absolute; top: 120px; left: 180px; min-width: 1000px; text-align: left; line-height: 25px; }
 
 h1 { font-size: 6vmax; font-weight: 900; }
 
@@ -13,3 +14,43 @@ a:hover { color: #fff; }
 .container { display: grid; grid-template-columns: 1fr 1fr; grid-column-gap: 10%; margin: 20% 0 0 0; align-items: left; justify-items: left; }
 
 #about-me { max-width: 560px; margin: 0 auto; text-align: left; border-style: none; padding: 25px; }
+
+.rows { position: relative; width: 100%; margin: 0; margin-top: 50px; padding: 0; list-style: none; }
+
+.row__img { display: none; position: absolute; max-width: 500px; max-height: 500px; top: -58px; left: 190px; z-index: -1; opacity: 0; transition: opacity 500ms; }
+
+.row__cols, .row__post { display: block; margin-bottom: 10px; }
+
+.row__cols { font-weight: 700; overflow: hidden; }
+
+.row__post { width: 100%; overflow: hidden; }
+
+.row__title, .post__title, .row__date, .post__date, .row__cat, .post__cat { float: left; }
+
+.row__title, .post__title { width: 100%; }
+
+.row__date, .post__date, .row__cat, .post__cat { width: auto; }
+
+.row__cat, .post__cat { position: relative; margin-left: 10px; }
+.row__cat:before, .post__cat:before { position: absolute; content: '|'; left: -9px; }
+
+.row__body { margin: 20px 0; }
+
+.row__active { text-decoration: line-through; }
+
+.post__meta { margin: 30px 0 20px; border-bottom: 1px solid #000000; overflow: hidden; font-weight: 700; }
+
+.post__paginate { overflow: hidden; }
+
+.post__paginate-left, .post__paginate-right { position: relative; display: block; width: 50%; }
+
+.post__paginate-left { padding-left: 13px; float: left; }
+.post__paginate-left:before { position: absolute; top: 0; left: 0; content: "\21FD"; }
+
+.post__paginate-right { padding-right: 13px; text-align: right; float: right; }
+.post__paginate-right:after { position: absolute; top: 0; right: 0; content: "\21FE"; }
+
+.post__body { padding-bottom: 20px; border-bottom: 1px solid #000000; }
+.post__body pre { background: #000000; padding: 10px 20px; }
+.post__body code { background: #000000; font-size: 12px; }
+.post__body img { max-width: 100%; }
