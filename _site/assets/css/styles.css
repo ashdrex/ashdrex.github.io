@@ -17,7 +17,7 @@ a:hover { color: #fff; }
 
 .rows { position: relative; width: 100%; margin: 0; margin-top: 50px; padding: 0; list-style: none; }
 
-.row__img { display: none; position: absolute; max-width: 500px; max-height: 500px; top: -58px; left: 190px; z-index: -1; opacity: 0; transition: opacity 500ms; }
+.row__img { display: none; position: absolute; max-width: 500px; max-height: 500px; top: -30px; left: 164px; z-index: -1; opacity: 0; transition: opacity 500ms; }
 
 .row__cols, .row__post { display: block; margin-bottom: 10px; }
 
