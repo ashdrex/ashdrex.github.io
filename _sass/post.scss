@@ -1,6 +1,6 @@
 .post__meta {
     margin: 30px 0 20px;
-    border-bottom: 1px solid $color__black;
+    border-bottom: 1px solid $color__drkblue;
     overflow: hidden;
     font-weight: 700;
   }
@@ -43,28 +43,26 @@
   }
   
   .post__title {
+    font-size: 20px;
     @extend .row__title;
   }
   
   .post__date {
     @extend .row__date;
-  }
-  
-  .post__cat {
-    @extend .row__cat;
+    font-size: 12px;
   }
   
   .post__body {
     padding-bottom: 10px;
-    border-bottom: 1px solid $color__black;
+    border-bottom: 1px solid $color__drkblue;
   
     pre {
-      background: $color__black;
+      background: $color__white;
       padding: 20px 10px;
     }
   
     code {
-      background: $color__black;
+      background: $color__white;
       font-size: 12px;
     }
   

@@ -1,21 +1,21 @@
-@import url("https://fonts.googleapis.com/css?family=Inconsolata:400,700");
-body { width: 100%; height: 100%; margin: 0 auto; padding: 0px; overflow-x: hidden; font-family: "Inconsolata", monospace; font-size: 14px; font-weight: 400; line-height: 1.5; color: #000; text-align: left; background-color: #836c92; }
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;600&display=swap");
+body { width: 100%; height: 100%; margin: 0 auto; padding: 0px; overflow-x: hidden; font-family: "Nunito", sans-serif; font-size: 15px; font-weight: 400; line-height: 1.5; color: #313e4b; text-align: left; background-color: #afc3d6; }
 
-h1 { font-size: 36px; font-weight: 900; line-height: 60px; }
+h1 { font-family: "Nunito", sans-serif; font-size: 36px; font-weight: 900; line-height: 60px; }
 
 h2 { font-size: 28px; }
 
-a:link, a:active, a:visited { color: #28202d; text-decoration-line: none; font-weight: bold; }
+a:link, a:active, a:visited { color: #446786; text-decoration-line: none; font-weight: bold; }
 
-a:hover { color: #B996C2; }
+a:hover { color: #538ec5; }
 
 a:before { content: ''; display: inline-block; width: 20px; height: 20px; margin-right: 15px; }
 
 .container { max-width: 560px; margin: 120px 0 0 150px; text-align: left; border-style: none; padding: 25px; }
 
-.rows { position: relative; width: 100%; margin: 0; margin-top: 50px; padding: 0; list-style: none; }
+.rows { position: relative; width: 100%; margin: 0; padding: 0; list-style: none; }
 
-.row__img { display: none; position: absolute; max-width: 500px; max-height: 500px; top: -117px; left: 446px; z-index: -1; opacity: 0; transition: opacity 500ms; }
+.row__img { display: none; position: absolute; max-width: 500px; max-height: 500px; top: -164px; left: 250px; z-index: -1; opacity: 0; transition: opacity 500ms; }
 
 .row__cols, .row__post { display: block; margin-bottom: 10px; }
 
@@ -23,20 +23,17 @@ a:before { content: ''; display: inline-block; width: 20px; height: 20px; margin
 
 .row__post { width: 100%; overflow: hidden; }
 
-.row__title, .post__title, .row__date, .post__date, .row__cat, .post__cat { float: left; }
+.row__title, .post__title, .row__date, .post__date { float: left; }
 
 .row__title, .post__title { width: 100%; }
 
-.row__date, .post__date, .row__cat, .post__cat { width: auto; }
-
-.row__cat, .post__cat { position: relative; margin-left: 10px; }
-.row__cat:before, .post__cat:before { position: absolute; content: '|'; left: -9px; }
+.row__date, .post__date { font-size: 12px !important; width: auto; }
 
 .row__body { margin: 20px 0; }
 
 .row__active { text-decoration: line-through; }
 
-.post__meta { margin: 30px 0 20px; border-bottom: 1px solid #000; overflow: hidden; font-weight: 700; }
+.post__meta { margin: 30px 0 20px; border-bottom: 1px solid #446786; overflow: hidden; font-weight: 700; }
 
 .post__paginate { overflow: hidden; }
 
@@ -48,7 +45,11 @@ a:before { content: ''; display: inline-block; width: 20px; height: 20px; margin
 .post__paginate-right { padding-right: 10px; text-align: right; float: right; }
 .post__paginate-right:after { position: absolute; top: 0; right: 0; content: "\21FE"; }
 
-.post__body { padding-bottom: 10px; border-bottom: 1px solid #000; }
-.post__body pre { background: #000; padding: 20px 10px; }
-.post__body code { background: #000; font-size: 12px; }
+.post__title { font-size: 20px; }
+
+.post__date { font-size: 12px; }
+
+.post__body { padding-bottom: 10px; border-bottom: 1px solid #446786; }
+.post__body pre { background: #fff; padding: 20px 10px; }
+.post__body code { background: #fff; font-size: 12px; }
 .post__body img { max-width: 100%; }

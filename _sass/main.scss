@@ -1,7 +1,8 @@
 // typography
-@import url('https://fonts.googleapis.com/css?family=Inconsolata:400,700');
-$inconsolata: 'Inconsolata', monospace;
-$font__size: 14px;
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600&display=swap');
+$opensans: 'Open Sans', sans-serif;
+$nunito: 'Nunito', sans-serif;
+$font__size: 15px;
 $font__sizelg: 36px;
 $font__sizemed: 28px;
 $font__weight: 400;
@@ -10,9 +11,10 @@ $font__line-height: 1.5;
 // colors
 $color__black: #000;
 $color__white: #fff;
-$color__litepurple: #B996C2;
-$color__purple: #836c92;
-$color__drkpurple: #28202d;
+$color__font: #313e4b;
+$color__blue: #538ec5;
+$color__liteblue: #afc3d6;
+$color__drkblue: #446786;
 
 
 
@@ -22,16 +24,17 @@ body {
   margin: 0 auto;
   padding: 0px;
   overflow-x: hidden;
-  font-family: $inconsolata;
+  font-family: $nunito;
   font-size: $font__size;
   font-weight: $font__weight;
   line-height: $font__line-height;
-  color: $color__black;
+  color: $color__font;
   text-align: left;
-  background-color: $color__purple;
+  background-color: $color__liteblue;
 }
 
 h1 {
+  font-family: $nunito;
   font-size: $font__sizelg;
   font-weight: 900;
   line-height: 60px;
@@ -42,13 +45,13 @@ h2 {
 }
 
 a:link, a:active, a:visited {
-  color: $color__drkpurple;
+  color: $color__drkblue;
   text-decoration-line: none;
   font-weight: bold;
 }
 
 a:hover {
-  color: $color__litepurple;
+  color: $color__blue;
 }
 
 a:before {

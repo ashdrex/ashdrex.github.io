@@ -6,11 +6,6 @@ layout: default
 
 <body>
     <div class="post">
-      <div class="bio__header">
-        <a href="{{ site.url }}{{ "/" | relative_url }}">
-          {{ site.header }}
-        </a>
-      </div>
 
       <div class="post__meta">
         <div class="post__title">{{ page.title }}</div>
@@ -21,7 +16,6 @@ layout: default
             {{ page.date | date: "%b %-d, %Y" }}
           {% endif %}
         </div>
-        <div class="post__cat">{{ page.category }}</div>
       </div>
 
       <div class="post__body">

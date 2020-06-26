@@ -2,7 +2,6 @@
     position: relative;
     width: 100%;
     margin: 0;
-    margin-top: 50px;
     padding: 0;
     list-style: none;
   }
@@ -36,8 +35,7 @@
   }
   
   .row__title,
-  .row__date,
-  .row__cat {
+  .row__date{
     float: left;
   }
   
@@ -45,20 +43,9 @@
     width: 100%;
   }
   
-  .row__date,
-  .row__cat {
+  .row__date{
+    font-size: 12px!important;
     width: auto;
-  }
-  
-  .row__cat {
-    position: relative;
-    margin-left: 10px;
-  
-    &:before {
-      position: absolute;
-      content: '|';
-      left: -9px;
-    }
   }
   
   .row__body {
