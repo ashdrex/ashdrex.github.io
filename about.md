@@ -2,13 +2,14 @@
 layout: default
 title: about me
 ---
-# about me
+# About Me
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas semper nisi urna, eu hendrerit metus gravida vitae. Proin at risus euismod, sollicitudin elit id, accumsan enim. 
+Call me Ash!
 
-Cras suscipit, dolor sit amet congue rhoncus, nisl risus ultricies tellus, 
-id laoreet orci ante a lectus. Ut mollis urna vitae elit dictum, at egestas massa rhoncus. 
+I'm a current Computer Science major at the University of Maine.
 
-Sed at risus magna. Praesent dignissim hendrerit arcu viverra venenatis.
+My background is kind of all over the place and probably best saved for a long blog post. In short, I used to be a designer in Philadelphia. Life put me in Maine, close to campus. I decided that this was the best time to be the programmer that I've always wanted to be.
 
-{% include social.html %}
+Here is proof that I *do* go outside:
+
+![](/images/me.jpg)
