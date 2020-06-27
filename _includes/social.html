@@ -1,7 +1,15 @@
+<div class="social">
+
 {% if site.data.social %}
-<ul class="social">
   {% for item in site.data.social %}
-    <li><a href="{{ item.url }}" target="_blank">{{ item.title }}</a></li>
+  <a href="{{ item.url }}" target="_blank">
+    <img src="{{ item.icon }}" 
+          onmouseover="this.src='{{ item.icon_hover }}';"
+          onmouseout="this.src='{{ item.icon }}';">
+  </a>
   {% endfor %}
-</ul>
 {% endif %}
+
+</div>
+
+<!-- icons from iconsdb.com -->

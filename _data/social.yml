@@ -1,6 +1,12 @@
 - title: github
   url: http://github.com/ashdrex
+  icon: /images/github.png
+  icon_hover: /images/github_hover.png
 - title: linkedin
   url: https://www.linkedin.com/in/ashleyshulihui/
+  icon: /images/linkedin.png
+  icon_hover: /images/linkedin_hover.png
 - title: instagram
   url: http://instagram.com/shuli
+  icon: /images/insta.png
+  icon_hover: /images/insta_hover.png
