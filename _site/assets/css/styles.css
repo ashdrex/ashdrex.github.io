@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;600&family=Quicksand&display=swap");
-body { width: 100%; height: 100%; margin: 0 auto; padding: 0px; overflow-x: hidden; font-family: "Quicksand", sans-serif; font-size: 21px; font-weight: 400; line-height: 1.5; color: #313e4b; text-align: left; background-color: #afc3d6; }
+body { width: 100%; height: 100%; margin: 0; padding: 0px; overflow-x: hidden; font-family: "Quicksand", sans-serif; font-size: 21px; font-weight: 400; line-height: 1.5; color: #313e4b; text-align: left; background-color: #fff; }
 
 h1 { font-family: "Nunito", sans-serif; font-size: 36px; font-weight: 900; line-height: 60px; }
 
@@ -11,13 +11,19 @@ a:hover { color: #538ec5; }
 
 a:after { content: ''; display: inline-block; width: 20px; height: 20px; margin-right: 15px; }
 
-.container { max-width: 560px; margin: 120px 0 0 150px; text-align: left; border-style: none; padding: 25px; }
+.container { max-width: 560px; margin: 25px 0 0 150px; text-align: left; border-style: none; padding: 25px; }
+
+.navigation { max-width: 100%; min-width: 1000px; text-align: left; border-style: none; padding: 150px 0 0 175px; }
+.navigation a:link, .navigation a:active, .navigation a:visited { font-family: "Nunito", sans-serif; font-size: 15px; color: #fff; text-decoration-line: none; text-transform: uppercase; font-weight: bolder; }
+.navigation a:hover { color: #446786; }
+
+.navbar { width: 100%; height: 200px; margin: 0 auto; padding: 0px; color: #446786 !important; background-image: linear-gradient(to top right, #6a8baa, #6a8baa, #afc3d6); background-repeat: no-repeat; background-attachment: fixed; }
 
 .social { padding: 40px 0 0 0; }
 
 .rows { position: relative; width: 100%; margin: 0; padding: 20px 0 0 0; list-style: none; }
 
-.row__img { display: none; position: absolute; max-width: 500px; max-height: 500px; top: 131px; left: 313px; z-index: -1; opacity: 0; transition: opacity 500ms; }
+.row__img { display: none; position: absolute; max-width: 500px; max-height: 500px; top: -31px; left: 468px; z-index: -1; opacity: 0; transition: opacity 500ms; }
 
 .row__cols, .row__post { display: block; margin-bottom: 10px; }
 

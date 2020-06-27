@@ -7,8 +7,10 @@
     <link rel="stylesheet" href="/assets/css/styles.css">
   </head>
   <body>
+    <div class="navbar">
+        {% include navigation.html %}
+    </div>
     <div class="container">
-      {% include navigation.html %}
       {{ content }}
     </div>
   </body>
