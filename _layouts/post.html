@@ -5,6 +5,7 @@ layout: default
 ---
 
 <body>
+  <div class="animate__animated animate__fadeInLeft">
     <div class="post">
 
       <div class="post__meta">
@@ -35,7 +36,6 @@ layout: default
       {% endif %}
     </div>
 
-    {% include posts_list.html uid=page.id %}
-  </body>
-
-</html>
+  {% include posts_list.html uid=page.id %}
+  </div>
+</body>

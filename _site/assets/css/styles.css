@@ -9,17 +9,17 @@ a:link, a:active, a:visited { font-family: "Nunito", sans-serif; font-size: 15px
 
 a:hover { color: #538ec5; }
 
-a:after { content: ''; display: inline-block; width: 20px; height: 20px; margin-right: 15px; }
-
 .container { max-width: 560px; min-height: 100%; position: relative; margin: 25px 0 50px 150px; text-align: left; border-style: none; padding: 25px; }
-
-.social { padding: 40px 0 0 0; }
 
 .navigation { max-width: 100%; min-width: 1000px; text-align: left; border-style: none; padding: 150px 0 0 175px; }
 .navigation a:link, .navigation a:active, .navigation a:visited { font-family: "Nunito", sans-serif; font-size: 15px; color: #fff; text-decoration-line: none; text-transform: uppercase; font-weight: bolder; }
+.navigation a:after { content: ''; display: inline-block; width: 20px; height: 20px; margin-right: 15px; }
 .navigation a:hover { color: #446786; }
 
-.navbar { width: 100%; height: 200px; margin: 0 auto; padding: 0px; color: #446786 !important; background-image: linear-gradient(to top right, #6a8baa, #6a8baa, #afc3d6); background-repeat: no-repeat; background-attachment: fixed; }
+.header { width: 100%; height: 200px; margin: 0 auto; padding: 0px; color: #446786 !important; background-image: linear-gradient(to top right, #6a8baa, #6a8baa, #afc3d6); background-repeat: no-repeat; background-attachment: fixed; }
+
+.footer { position: relative; width: 100%; height: 100px; font-family: "Nunito", sans-serif; font-size: 12px; text-align: center; color: #313e4b; }
+.footer a:link, .footer a:active, .footer a:visited { display: inline-block; margin: 0 15px 10px 15px; }
 
 .button { background-color: #446786; border: 1px solid #446786; border-radius: 25px; color: #fff; padding: 10px 20px; font-family: "Nunito", sans-serif; text-align: center; text-decoration: none; display: inline-block; font-size: 16px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
 
@@ -29,7 +29,7 @@ a:after { content: ''; display: inline-block; width: 20px; height: 20px; margin-
 
 .rows { position: relative; width: 100%; margin: 0; padding: 20px 0 0 0; list-style: none; }
 
-.row__img { display: none; position: absolute; max-width: 500px; max-height: 500px; top: -68px; left: 433px; z-index: -1; opacity: 0; transition: opacity 500ms; }
+.row__img { display: none; position: absolute; max-width: 500px; max-height: 500px; top: -177px; left: 51px; z-index: -1; opacity: 0; transition: opacity 500ms; }
 
 .row__cols, .row__post { display: block; margin-bottom: 10px; }
 

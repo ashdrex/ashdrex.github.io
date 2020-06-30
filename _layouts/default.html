@@ -4,16 +4,24 @@
   <head>
     <meta charset="utf-8">
     <title>{{ page.title }}</title>
-    <link rel="stylesheet" href="/assets/css/styles.css">
+    <link rel="stylesheet" href="/assets/css/styles.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
   </head>
   <body>
+    <div class="animate__animated animate__fadeIn">
+      <div class="header">
+          {% include header.html %}
+      </div>
 
-    <div class="navbar">
-        {% include navigation.html %}
-    </div>
+      <div class="container">
+        {{ content }}
+      </div>
 
-    <div class="container">
-      {{ content }}
+      <div class="footer">
+        {% include social.html %}
+        </br>
+        {% include footer.html %}
+      </div>
     </div>
   </body>
 </html>

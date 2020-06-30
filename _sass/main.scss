@@ -58,14 +58,6 @@ a:hover {
   color: $color__blue;
 }
 
-a:after {
-  content: '';
-  display: inline-block;
-  width: 20px;
-  height: 20px;
-  margin-right: 15px;
-}
-
 .container {
   max-width: 560px;
   min-height: 100%;
@@ -74,10 +66,6 @@ a:after {
   text-align: left;
   border-style: none;
   padding: 25px;
-}
-
-.social {
-  padding: 40px 0 0 0;
 }
 
 .navigation {
@@ -94,12 +82,19 @@ a:after {
         text-transform: uppercase;
         font-weight: bolder;
       }
+      a:after {
+        content: '';
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        margin-right: 15px;
+      }
       a:hover {
         color: $color__drkblue;
       }
 }
 
-.navbar {
+.header {
   width: 100%;
   height: 200px;
   margin: 0 auto;
@@ -108,6 +103,20 @@ a:after {
   background-image: linear-gradient(to top right, $color__liteblue3, $color__liteblue3, $color__liteblue);
   background-repeat: no-repeat;
   background-attachment: fixed;
+}
+
+.footer {
+  position: relative;
+  width: 100%;
+  height: 100px;
+  font-family: $nunito;
+  font-size: 12px;
+  text-align: center;
+  color: $color__font;
+  a:link, a:active, a:visited  {
+    display: inline-block;
+    margin: 0 15px 10px 15px;
+  }
 }
 
 .button {
