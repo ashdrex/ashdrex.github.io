@@ -1,41 +1,60 @@
 ---
-
 layout: default
-
 ---
 
-<body>
-  <div class="animate__animated animate__fadeInLeft">
-    <div class="post">
-
-      <div class="post__meta">
-        <div class="post__title">{{ page.title }}</div>
-        <div class="post__date">
-          {% if site.date_format %}
-            {{ page.date | date: site.date_format }}
-          {% else %}
-            {{ page.date | date: "%b %-d, %Y" }}
-          {% endif %}
+<div class="wrapper wrapper-content  animated fadeInRight article">
+    <div class="row">
+        <div class="col-lg-10 col-lg-offset-1">
+            <div class="ibox">
+                <div class="ibox-content">
+                    <div class="pull-right">
+                    	{% for category in page.categories %}
+                        	<a class="btn btn-white btn-xs" href="{{ category | downcase | prepend: '/' | prepend: site.baseurl }}">{{ category }}</a>
+                        {% endfor %}
+                    </div>
+                    <div class="text-center article-title">
+                    <span class="text-muted"><i class="fa fa-clock-o"></i> {{ page.date | date: "%-d %b %Y" }}</span>
+                        <h1>
+                            {{ page.title }}
+                        </h1>
+                    </div>
+                    	{{ content }}
+                    <hr>
+                    <div class="row">
+                        <div class="col-md-6">
+                                <h5 style="display: inline;">Tags:</h5>
+                                {% for tag in page.tags %}
+                                    <button class="btn btn-white btn-xs" type="button">{{ tag }}</button>
+                                {% endfor %}
+                        </div>
+                        <div class="col-md-6">
+                            <div class="small text-right">
+                                <div>
+                                {% if site.disqus %}
+                                <i class="fa fa-comments-o"> </i> <span class="disqus-comment-count" data-disqus-url="{{ site.url }}{{ page.url }}">0</span> comments
+                                {% endif %}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <!-- donate -->
+                            {% if site.donation %}
+                            {% include donate.html %}
+                            {% endif %}
+                            <br>
+                            <!-- share -->
+                            {% include share.html %}
+                            <br>
+                            <!-- comment -->
+                            {% include comments.html %}
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-
-      <div class="post__body">
-        {{ content }}
-      </div>
-
-      {% if site.prev-next %}
-        <div class="post__paginate">
-          {% if page.previous.url %}
-            <a class="post__paginate-left" href="{{ site.url }}{{ page.previous.url | relative_url }}">{{ page.previous.title }}</a>
-          {% endif %}
-
-          {% if page.next.url %}
-            <a class="post__paginate-right" href="{{ site.url }}{{ page.next.url | relative_url }}">{{ page.next.title }}</a>
-          {% endif %}
-        </div>
-      {% endif %}
     </div>
 
-  {% include posts_list.html uid=page.id %}
-  </div>
-</body>
+</div>

@@ -1,27 +1,29 @@
+---
+layout: compress
+---
 
-<!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>{{ page.title }}</title>
-    <link rel="stylesheet" href="/assets/css/styles.css"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
-  </head>
-  <body>
-    <div class="animate__animated animate__fadeIn">
-      <div class="header">
-          {% include header.html %}
-      </div>
+<!DOCTYPE html>
+<html lang="en">
 
-      <div class="container">
-        {{ content }}
-      </div>
+    {% if page.title != 'index' %}
+        {% include head.html %}
+    {% else %}
+        {% include index_head.html %}
+    {% endif %}
 
-      <div class="footer">
-        {% include social.html %}
-        </br>
-        {% include footer.html %}
-      </div>
-    </div>
-  </body>
+<body id="page-top" class="landing-page">
+
+    {% if page.title != 'index' %}
+        {% include blog_header.html %}
+    {% endif %}
+
+    {{ content }}
+
+    {% if page.title != 'index' %}
+        {% include foot.html %}
+    {% else %}
+        {% include index_foot.html %}
+    {% endif %}
+
+</body>
 </html>

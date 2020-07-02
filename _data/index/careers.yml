@@ -1,0 +1,46 @@
+# careers section data
+# if you don't have language feature(language.yml is empty), ignore "i18n" items
+- name:
+    detail: University of Maine
+    i18n: company_c
+  desc:
+    detail: Collaborated with a research team to understand retention rate of Computer Science students. Wrote programs to analyze and visualize collected data.
+    i18n: company_c_desc
+  date:
+    detail: Jan. 2020
+    i18n: company_c_date
+  job:
+    detail: Research Assistant
+    i18n: company_c_job
+  icon: fa-plus-square
+  present: true
+
+- name:
+    detail: University of Maine
+    i18n: company_b
+  desc:
+    detail: Began enrollment at the University of Maine, studying Computer Science.
+    i18n: company_b_desc
+  date:
+    detail: Aug. 2019
+    i18n: company_b_date
+  job:
+    detail: Student
+    i18n: company_b_job
+  icon: fa-plus-square
+  present: false
+
+- name:
+    detail: Penn State Industries
+    i18n: company_a
+  desc:
+    detail: Worked at Penn State Industries as an Industrial Designer, designing pen kits and lathe accessories for wood-turning hobbyists.
+    i18n: company_a_desc
+  date:
+    detail: Oct. 2017
+    i18n: company_a_date
+  job:
+    detail: Industrial Designer
+    i18n: company_a_job
+  icon: fa-plus-square
+  present: false

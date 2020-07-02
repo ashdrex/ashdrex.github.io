@@ -1,3 +1,70 @@
-plugins:
+# Welcome to Jekyll!
 
-  - jekyll-sitemap
+# Website settings
+title: Ashley Drexler
+description: Ash's personal site, using Jekyll and github pages.
+keywords: ashley,drexler,portfolio,blog,computer,science,machine,learning,programming,github
+baseurl:  # if you have suburl as homepage like '/homepage', please change it to '/homepage' and your repo's name should be 'homepage'
+url: https://ashdrex.com  # url should be 'http://<github_username>.github.io/homepage' as before
+# url: http://127.0.0.1:4000
+img_path: /static/assets/img/blog  # url should be '/homepage/static/assets/img/blog' as before
+
+# author -- index page "about me" section
+author:  # change following line to your infomation.
+  name: Ashley Drexler  # Be used at blog posts' author.
+  first_name: Ashley  # Be used at index page about me section.
+  last_name: Drexler  # Be used at index page about me section.
+  avatar: /static/assets/img/landing/avatar.jpg  # upload your avatar at directory and edit it.
+  github_username: ashdrex  # Leave blank if you don't have now
+  linkedin_id: ashdrex # Leave blank if you don't have now
+  facebook_username: ashdrex  # Leave blank if you don't have now
+  twitter_username:   # Leave blank if you don't have now
+  email: ashleyshulihui@gmail.com  # Leave blank if you don't have now
+  cv:  # An online CV can be printed as PDF, leave blank if you don't have now
+  # skill icons are on avatar's left and right side. Reference urls are http://fontawesome.io/ and http://fizzed.com/oss/font-mfizz
+  skill_icon1:
+    - name: icon-git
+    - name: icon-kde
+  skill_icon2:
+    - name: icon-python
+    - name: icon-database
+  desc: My name is Ashley and I am a current student at the University of Maine, studying computer science. I have a strong interest in Data Science, Machine Learning, and Software Engineering. # Describe yourself.
+
+# comment
+disqus:  # if you wanna comment feature, go to https://disqus.com/ to get your configuration; if not, comment following two lines.
+  name: jalpc
+
+# analytics
+## google analytics
+ga:  # if you wanna this feature, go to https://www.google.com/analytics/ to get your configuration; if not, comment following line.
+  id: UA-171516627-1
+
+## google optimize
+go:
+  # id:
+
+## growingIO
+gio:  # if you wanna this feature, go to https://www.growingio.com/ to get your configuration; if not, comment following line.
+  # id:
+
+## donation
+donation: off  # type 'on'/'off' to choice display donation button at post page or not
+
+## carousels
+index_carousel: on  # index page carousel switch
+blog_carousel: on  # blog page carousel switch
+
+# scss
+sass:
+  style: compressed
+
+# Build settings
+encoding: utf-8
+
+# other settings
+highlighter: rouge
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+

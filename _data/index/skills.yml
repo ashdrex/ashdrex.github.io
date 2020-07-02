@@ -1,0 +1,6 @@
+# skills section data
+
+label: Ability
+id : cs
+aspects: Linux, Windows, Mac, Python, C, Java, Github, Vim, HTML/CSS, Machine Learning
+percentage: 100, 70, 70, 100, 80, 50, 100, 100, 80, 100
