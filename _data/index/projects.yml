@@ -1,22 +1,38 @@
 # projects section data
 # If you don't have language feature(language.yml is empty), ignore "i18n" items
 # Suggest projects' img be located at '/static/assets/img/landing', and edit following img items.
-# - name: Jalpc
-#   i18n: jalpc
-#   gh_user: jarrekk
-#   repo: Jalpc
-#   img: /static/assets/img/landing/jekyll.png
-#   desc: This project is my project. I use javescript to get repo's information all my repos have only one request.
 
-# - name: Python
-#   i18n: cpython
-#   gh_user: python
-#   repo: cpython
-#   img: /static/assets/img/landing/python.png
-#   desc: This project is other's project. I use another request to get repo's information.
+- name: Philly Crash Data
+  i18n: Philly Crash Data
+  gh_user: ashdrex
+  repo: PhillyCrashData
+  img: /static/assets/img/landing/pandas.png
+  desc: Public Philadelphia traffic incident records were used to create this visualization.
 
-# - name: Google
+- name: CS Retention Project
+  i18n: CS Retention Project
+  gh_user: ashdrex
+  repo: CS_Retention
+  img: /static/assets/img/landing/umaine.jpg
+  desc: Cleaned and sorted collected data on Computer Science majors at the University of Maine. Data was then analyzed and turned into visualizations to better understand where student retention would drop. (Repo is currently private while under development.)
+ 
+- name: Star Dasher
+  i18n: Star Dasher
+  gh_user: ashdrex
+  repo: star-dasher
+  img: /static/assets/img/landing/stardasher.png
+  desc: This 2D side-scrolling game is created with Pygame and Photoshop.
+
+- name: PG Bot
+  i18n: PG Bot
+  gh_user: kodyVS
+  repo: Discord-Bot-Development
+  img: /static/assets/img/landing/pgbot_dark.png
+  desc: A Discord bot created in collaboration with and for a small programming Discord server. Features include a Pomodoro timer, timezone logging, coding leaderboard, file storage and more. Currently still in development.
+
+# - name: PG Bot
 #   i18n: google
+#   gh_user: kodyVS
 #   url: https://google.com
-#   img: /static/assets/img/landing/google.png
-#   desc: This is another project.
+#   img: /static/assets/img/landing/pgbot_dark.png
+#   desc: test test

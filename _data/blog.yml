@@ -3,17 +3,17 @@
   href: /blog/
 
 # edit following lines to custom your blog page, make sure name is the same as href but capitalized first letter(except HTML)
-- name: Programming
-  href: /prog/
+# - name: Programming
+#   href: /prog/
 
-- name: Data Science
-  href: /ds/
+# - name: Data Science
+#   href: /ds/
 
-- name: Design
-  href: /webdesign/
+# - name: Design
+#   href: /webdesign/
 
 
-- name: Life
-  href: /life/
+# - name: Life
+#   href: /life/
 
 

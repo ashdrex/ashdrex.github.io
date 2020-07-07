@@ -2575,7 +2575,7 @@ body {
   }
   
   .carousel {
-    height: 470px;
+    height: 300px;
     background-color: #fff;
   }
 
@@ -2583,7 +2583,7 @@ body {
     z-index: 10;
   }
   .carousel .item {
-    height: 470px;
+    height: 300px;
     background-color: #fff;
   }
   .carousel-inner > .item > img {
@@ -2591,7 +2591,7 @@ body {
     top: 0;
     left: 0;
     min-width: 100%;
-    height: 470px;
+    height: 300px;
   }
   .carousel-fade {
     .carousel-inner {
@@ -2701,9 +2701,9 @@ body {
   .social-icon a {
     background: #3385FF;
     color: #fff;
-    padding: 4px 8px;
-    height: 28px;
-    width: 28px;
+    padding: 8px 8px;
+    height: 35px;
+    width: 35px;
     display: block;
     border-radius: 50px;
     &:hover {

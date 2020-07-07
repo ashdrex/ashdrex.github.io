@@ -12,7 +12,7 @@
         <div class="col-xs-2 wow fadeInLeft">
             <div class="team-member">
                 <div class="vote-icon" style="text-align: center">
-                    <i class="fa {{ icon.name }}"></i>
+                    <i class="fa {{ icon.name }} fa-lg"></i>
                 </div>
             </div>
         </div>
@@ -28,7 +28,7 @@
         <div class="col-xs-2 wow fadeInRight">
             <div class="team-member">
                 <div class="vote-icon" style="text-align: center">
-                    <i class="fa {{ icon.name }}"></i>
+                    <i class="fa {{ icon.name }} fa-lg"></i>
                 </div>
             </div>
         </div>
@@ -36,29 +36,36 @@
     </div>
     <div class="row">
         <div class="col-lg-8 col-lg-offset-2 text-center m-t-lg m-b-lg wow zoomIn">
-            <h7><span data-i18n="about_me.des">{{ site.author.desc }}</span></h7>
             <p>
-            <ul class="list-inline social-icon">
-                {% if site.author.github_username %}
-                <li><a href="https://github.com/{{ site.author.github_username }}" target="blank"><i class="fa fa-github"></i></a></li>
-                {% endif %}
-                {% if site.author.linkedin_id %}
-                <li><a href="https://www.linkedin.com/in/{{ site.author.linkedin_id }}" target="blank"><i class="fa fa-linkedin"></i></a></li>
-                {% endif %}
-                {% if site.author.facebook_username %}
-                <li><a href="https://www.facebook.com/{{ site.author.facebook_username }}" target="blank"><i class="fa fa-facebook"></i></a></li>
-                {% endif %}
-                {% if site.author.twitter_username %}
-                <li><a href="https://twitter.com/{{ site.author.twitter_username }}" target="blank"><i class="fa fa-twitter"></i></a></li>
-                {% endif %}
-                {% if site.author.email %}
-                <li><a href="mailto:{{ site.author.email }}"><i class="fa fa-envelope-o"></i></a></li>
-                {% endif %}
-                {% if site.author.cv %}
-                <li><a href="{{ site.author.cv }}" target="blank"><i class="fa fa-file-pdf-o"></i></a></li>
-                {% endif %}
-            </ul>
-            </p>
+                <ul class="list-inline social-icon">
+                    {% if site.author.github_username %}
+                    <li><a href="https://github.com/{{ site.author.github_username }}" target="blank"><i class="fa fa-github fa-lg"></i></a></li>
+                    {% endif %}
+                    {% if site.author.linkedin_id %}
+                    <li><a href="https://www.linkedin.com/in/{{ site.author.linkedin_id }}" target="blank"><i class="fa fa-linkedin fa-lg"></i></a></li>
+                    {% endif %}
+                    {% if site.author.facebook_username %}
+                    <li><a href="https://www.facebook.com/{{ site.author.facebook_username }}" target="blank"><i class="fa fa-facebook fa-lg"></i></a></li>
+                    {% endif %}
+                    {% if site.author.twitter_username %}
+                    <li><a href="https://twitter.com/{{ site.author.twitter_username }}" target="blank"><i class="fa fa-twitter fa-lg"></i></a></li>
+                    {% endif %}
+                    {% if site.author.email %}
+                    <li><a href="mailto:{{ site.author.email }}"><i class="fa fa-envelope-o fa-lg"></i></a></li>
+                    {% endif %}
+                    {% if site.author.cv %}
+                    <li><a href="{{ site.author.cv }}" target="blank"><i class="fa fa-file-pdf-o fa-lg"></i></a></li>
+                    {% endif %}
+                </ul>
+                </p>
+
+            <div style="height: 25px;"></div>
+
+            <h7><span data-i18n="about_me.des">{{ site.author.desc }}</span></h7>
+
+            <div style="height: 25px;"></div>
+            <a class="btn btn-lg btn-default btn-rounded btn-outline navy-bg wow bounceIn" href="{{ "/resume/" | prepend: site.baseurl }}"><span data-i18n="blog.my_blog">View Resume</span></a>
+            <div style="height: 15px;"></div>
         </div>
     </div>
 </div>

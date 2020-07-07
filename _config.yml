@@ -31,8 +31,8 @@ author:  # change following line to your infomation.
   desc: My name is Ashley and I am a current student at the University of Maine, studying computer science. I have a strong interest in Data Science, Machine Learning, and Software Engineering. # Describe yourself.
 
 # comment
-disqus:  # if you wanna comment feature, go to https://disqus.com/ to get your configuration; if not, comment following two lines.
-  name: jalpc
+# disqus:  # if you wanna comment feature, go to https://disqus.com/ to get your configuration; if not, comment following two lines.
+#   name: jalpc
 
 # analytics
 ## google analytics
