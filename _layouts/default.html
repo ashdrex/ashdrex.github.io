@@ -24,15 +24,18 @@ layout: compress
     (function () {
       var art = document.querySelector('.atn-art');
       if (!art) return;
+
       var image = art.querySelector('img');
-      var source = {{ '/static/assets/img/forest-art.svg' | prepend: site.baseurl | jsonify }};
+      var source = {{ site.author.avatar | prepend: site.baseurl | jsonify }};
+
       if (!image) {
         image = document.createElement('img');
         art.textContent = '';
         art.appendChild(image);
       }
+
       image.src = source;
-      image.alt = 'Aerial illustration of a dense autumn forest canopy in olive, evergreen, amber, orange and burgundy';
+      image.alt = 'Profile image';
       image.width = 820;
       image.height = 1025;
       image.loading = 'eager';

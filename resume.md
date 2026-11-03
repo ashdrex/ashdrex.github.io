@@ -196,7 +196,7 @@ permalink: /resume/
       </div>
 
       <div class="atn-art">
-        <img src="/static/assets/img/avatar.jpg" width="820" height="1025" loading="eager" decoding="async" alt="Aerial view of a dense autumn forest canopy in shades of olive, evergreen, amber, orange and burgundy">
+        <img src="{{ site.author.avatar | prepend: site.baseurl }}" width="820" height="1025" loading="eager" decoding="async" alt="Profile image">
       </div>
     </div>
     <div class="atn-social" aria-label="Academic and professional profiles">
@@ -254,12 +254,12 @@ permalink: /resume/
       <div class="atn-card">
         <div class="atn-card-head"><h3>PhD · Ecology</h3><span class="atn-date">2018 – 2022</span></div>
         <p class="atn-org">Friedrich Schiller University Jena · Germany</p>
-        <p><em>“The behavioural ecology of individualized niches in the light of meta-analysis”</em> · Supervisor: Prof. Holger Schielzeth · <a href="https://www.researchgate.net/publication/366818037">Thesis</a></p>
+        <p><em>“The behavioural ecology of individualized niches in the light of meta-analysis”</em> · Supervisor: Prof. Holger Schielzeth.</p>
       </div>
       <div class="atn-card">
         <div class="atn-card-head"><h3>MSc · Forestry and Natural Environment</h3><span class="atn-date">2016 – 2018</span></div>
         <p class="atn-org">Aristotle University of Thessaloniki · Greece</p>
-        <p><em>“Herpetofauna-habitat relationships in the suburban forest of Thessaloniki”</em> · Supervisor: Prof. Dimitrios Bakaloudis</p>
+        <p><em>“Herpetofauna-habitat relationships in the suburban forest of Thessaloniki”</em> · Supervisor: Prof. Dimitrios Bakaloudis.</p>
       </div>
       <div class="atn-card">
         <div class="atn-card-head"><h3>BSc · Forestry and Natural Environment</h3><span class="atn-date">2010 – 2016</span></div>
@@ -272,7 +272,7 @@ permalink: /resume/
       <div class="atn-honour"><span class="atn-year">2026</span><div><strong>Shortlisted for the Ecography E4 Award</strong><p>Ecography journal.</p></div></div>
       <div class="atn-honour"><span class="atn-year">2021</span><div><strong>Poster Prize</strong><p>Annual Meeting of the German Ecological Society (GfÖ).</p></div></div>
       <div class="atn-honour"><span class="atn-year">2019</span><div><strong>Poster Prize</strong><p>Meeting of the German Zoological Society (DZG), Behavioural Biology Section.</p></div></div>
-      <div class="atn-honour"><span class="atn-year">2017</span><div><strong>Travel Grant</strong><p>Technical University of Denmark and Aristotle University of Thessaloniki, for participation in the Ecology of Song conference.</p></div></div>
+      <div class="atn-honour"><span class="atn-year">2017</span><div><strong>Travel Grant</strong><p>Technical University of Denmark and Aristotle University of Thessaloniki, for participation in a research exchange.</p></div></div>
       <div class="atn-honour"><span class="atn-year">2016</span><div><strong>Commendation of Excellence</strong><p>Aristotle University of Thessaloniki, for excellence in undergraduate studies.</p></div></div>
       <div class="atn-honour"><span class="atn-year">2010</span><div><strong>Award and Commendation of Excellence</strong><p>Aristotle University of Thessaloniki, for the highest grade in the entrance exam.</p></div></div>
     </section>
