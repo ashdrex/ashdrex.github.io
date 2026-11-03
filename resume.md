@@ -196,9 +196,7 @@ permalink: /resume/
       </div>
 
       <div class="atn-art">
-        <img src="data:image/webp;base64,UklGRsSsAwBXRUJQVlA4ILisAwDQfQmdASo0AwEEPnUskEakoqGhNxq9EJAOiWZqSRnjAnWLLw2j8fSUyj8b/z/6v0d+WfCvg3/U//3/cfKl/l7Dfa/+15iXtH+R///+1/8vfR/4vV//aPzl+A7+3/v/7O[...]
-             width="820" height="1025" loading="eager" decoding="async"
-             alt="Aerial view of a dense autumn forest canopy in shades of olive, evergreen, amber, orange and burgundy">
+        <img src="/static/assets/img/avatar.jpg" width="820" height="1025" loading="eager" decoding="async" alt="Aerial view of a dense autumn forest canopy in shades of olive, evergreen, amber, orange and burgundy">
       </div>
     </div>
     <div class="atn-social" aria-label="Academic and professional profiles">
@@ -242,7 +240,7 @@ permalink: /resume/
       <div class="atn-card">
         <div class="atn-card-head"><h3>Research Group Leader · BIOECOS</h3><span class="atn-date">Sep 2024 – present</span></div>
         <p class="atn-org">Helmholtz Centre for Environmental Research – UFZ</p>
-        <p class="atn-note"><a href="https://www.ufz.de/index.php?en=34212">Department of Computational Landscape Ecology</a> · <a href="https://www.ufz.de/index.php?en=37501">BIOECOS Group</a></p>
+        <p class="atn-note"><a href="https://www.ufz.de/index.php?en=34212">Department of Computational Landscape Ecology</a> · <a href="https://www.ufz.de/index.php?en=37501">BIOECOS Group</a>.</p>
       </div>
       <div class="atn-card">
         <div class="atn-card-head"><h3>Postdoctoral Researcher</h3><span class="atn-date">Nov 2022 – Sep 2024</span></div>
@@ -256,7 +254,7 @@ permalink: /resume/
       <div class="atn-card">
         <div class="atn-card-head"><h3>PhD · Ecology</h3><span class="atn-date">2018 – 2022</span></div>
         <p class="atn-org">Friedrich Schiller University Jena · Germany</p>
-        <p><em>“The behavioural ecology of individualized niches in the light of meta-analysis”</em> · Supervisor: Prof. Holger Schielzeth · <a href="https://www.researchgate.net/publication/366818037_Hutchinsons_ecological_niche_for_individuals">Thesis</a></p>
+        <p><em>“The behavioural ecology of individualized niches in the light of meta-analysis”</em> · Supervisor: Prof. Holger Schielzeth · <a href="https://www.researchgate.net/publication/366818037">Thesis</a></p>
       </div>
       <div class="atn-card">
         <div class="atn-card-head"><h3>MSc · Forestry and Natural Environment</h3><span class="atn-date">2016 – 2018</span></div>
