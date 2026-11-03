@@ -1,0 +1,65 @@
+{
+  "website": {
+    "title": "Dr. Elina Takola"
+  },
+  "nav": {
+    "home": "Inicio",
+    "about_me": "Sobre mí",
+    "skills": "Premios",
+    "projects": "Proyectos",
+    "career": "Carrera",
+    "blog": "CV",
+    "link": "Contacto"
+  },
+  "about_me": {
+    "about_me": "Sobre mí",
+    "des": "Soy una ecóloga griega y metaanalista que trabaja en el Helmholtz Centre for Environmental Research – UFZ en Leipzig. Mi investigación se centra en el uso del hábitat animal, la ecología del paisaje y la síntesis de evidencia para la conservación de la biodiversidad."
+  },
+  "skills": {
+    "my_skills": "Premios"
+  },
+  "projects": {
+    "my_projects": "Mis proyectos",
+    "ecologicalnicheevidencesynthesis": "Síntesis de evidencia para nichos ecológicos y patrones de biodiversidad impulsados por el clima.",
+    "individualised_niches": "Análisis de la variación individual del nicho y la selección del hábitat a lo largo de gradientes ecológicos.",
+    "noveltyat2ndglance": "Evaluación metaanalítica de la novedad y la investigación conductual en ecología animal.",
+    "surrounding_landscapes": "Análisis espacial de paisajes y procesos ecológicos a diferentes escalas.",
+    "jalpc": "Este proyecto es mío.",
+    "cpython": "Este es el proyecto de otra persona.",
+    "familycode": "Este es otro proyecto."
+  },
+  "career": {
+    "my_career": "Mi experiencia",
+    "ufz": "UFZ – Helmholtz Centre for Environmental Research",
+    "ufz_desc": "Investigación en sistemas ecológicos, metaanálisis y síntesis de evidencia para apoyar la conservación de la biodiversidad.",
+    "ufz_date": "2022–presente",
+    "ufz_job": "Investigadora / Metaanalista",
+    "research": "Universidad / Centro de investigación",
+    "research_desc": "Investigación sobre uso del hábitat, uso del suelo y ecología sintética con énfasis en la interpretación y síntesis de datos.",
+    "research_date": "2018–2022",
+    "research_job": "Investigadora / Posgrado",
+    "nextcode": "Nextcode",
+    "nextcode_des": "Desarrollé sitios web y pipelines de datos para proyectos de análisis genético.",
+    "nextcode_date": "Abr. 2016",
+    "nextcode_job": "Desarrolladora Python",
+    "netease": "Netease Game",
+    "netease_des": "Trabajé en sistemas server-side y automatización para infraestructura de juegos.",
+    "netease_date": "Jun. 2015",
+    "netease_job": "Dev Ops",
+    "ucloud": "Ucloud",
+    "ucloud_des": "Gestioné servidores y desarrollé automatización basada en shell para infraestructura a gran escala.",
+    "ucloud_date": "Sep. 2013",
+    "ucloud_job": "Dev Ops",
+    "college": "Graduación",
+    "college_des": "Me gradué en 2013 y comencé mi carrera profesional en tecnología.",
+    "college_date": "Jul. 2013",
+    "college_job": "Estudiante"
+  },
+  "blog": {
+    "my_blog": "Ver CV (in English)"
+  },
+  "link": {
+    "link": "Contáctame",
+    "view": "vistas"
+  }
+}

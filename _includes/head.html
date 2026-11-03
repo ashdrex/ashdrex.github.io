@@ -28,6 +28,10 @@
   <!-- Main Scripts -->
   <script src="{{"/static/assets/app-20180125.min.js"| prepend: site.baseurl }}"></script>
   <script src="{{"/static/assets/blog-20180125.min.js"| prepend: site.baseurl }}"></script>
+  {% if site.data.index.language %}
+  <script src="{{"/static/assets/i18-20180125.min.js"| prepend: site.baseurl }}"></script>
+  <script src="{{"/static/js/localization.js"| prepend: site.baseurl }}"></script>
+  {% endif %}
 
   <!-- Google AdSense -->
   <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>

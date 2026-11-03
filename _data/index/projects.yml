@@ -2,37 +2,30 @@
 # If you don't have language feature(language.yml is empty), ignore "i18n" items
 # Suggest projects' img be located at '/static/assets/img/landing', and edit following img items.
 
-- name: Philly Crash Data
-  i18n: Philly Crash Data
-  gh_user: ashdrex
-  repo: PhillyCrashData
+- name: EcologicalNicheEvidenceSynthesis
+  i18n: ecologicalnicheevidencesynthesis
+  gh_user: ETakola
+  repo: EcologicalNicheEvidenceSynthesis
   img: /static/assets/img/landing/pandas.png
-  desc: Public Philadelphia traffic incident records were used to create this visualization.
+  desc: Σύνθεση στοιχείων για οικολογικές θέσεις, κλιματικές τάσεις και επιπτώσεις στη βιοποικιλότητα.
 
-- name: CS Retention Project
-  i18n: CS Retention Project
-  gh_user: ashdrex
-  repo: CS_Retention
+- name: individualised_niches
+  i18n: individualised_niches
+  gh_user: ETakola
+  repo: individualised_niches
   img: /static/assets/img/landing/umaine.jpg
-  desc: Cleaned and sorted collected data on Computer Science majors at the University of Maine. Data was then analyzed and turned into visualizations to better understand where student retention would drop. (Repo is currently private while under development.)
- 
-- name: Star Dasher
-  i18n: Star Dasher
-  gh_user: ashdrex
-  repo: star-dasher
+  desc: Έρευνα για τις ατομικές και διασυνοριακές διαφορές στην επιλογή οικοτόπου και στις οικολογικές συνθήκες.
+
+- name: NoveltyAt2ndGlance
+  i18n: noveltyat2ndglance
+  gh_user: ETakola
+  repo: NoveltyAt2ndGlance
   img: /static/assets/img/landing/stardasher.png
-  desc: This 2D side-scrolling game is created with Pygame and Photoshop.
+  desc: Μετα-αναλυτική αποτίμηση της παρατήρησης νέων αντικειμένων και της συμπεριφορικής έρευνας.
 
-- name: PG Bot
-  i18n: PG Bot
-  gh_user: kodyVS
-  repo: Discord-Bot-Development
+- name: surrounding_landscapes
+  i18n: surrounding_landscapes
+  gh_user: ETakola
+  repo: surrounding_landscapes
   img: /static/assets/img/landing/pgbot_dark.png
-  desc: A Discord bot created in collaboration with and for a small programming Discord server. Features include a Pomodoro timer, timezone logging, coding leaderboard, file storage and more. Currently still in development.
-
-# - name: PG Bot
-#   i18n: google
-#   gh_user: kodyVS
-#   url: https://google.com
-#   img: /static/assets/img/landing/pgbot_dark.png
-#   desc: test test
+  desc: Ανάλυση χωρικών μοτίβων και αλληλεπιδράσεων τοπίου-οικοτόπου σε διαφορετικές κλίμακες.

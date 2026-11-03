@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 1025" role="img" aria-labelledby="title desc">
+  <title id="title">Autumn forest canopy</title>
+  <desc id="desc">Aerial illustration of dense autumn forest in olive, evergreen, amber, orange and burgundy.</desc>
+  <defs>
+    <linearGradient id="ground" x2="0" y2="1"><stop stop-color="#d7d9a1"/><stop offset="1" stop-color="#263b2b"/></linearGradient>
+    <radialGradient id="leaf"><stop stop-color="#e8b56b"/><stop offset=".72" stop-color="#a65d3f"/><stop offset="1" stop-color="#493c31"/></radialGradient>
+    <radialGradient id="evergreen"><stop stop-color="#85905b"/><stop offset=".76" stop-color="#42573d"/><stop offset="1" stop-color="#263b2b"/></radialGradient>
+    <filter id="soft"><feGaussianBlur stdDeviation="8"/></filter>
+  </defs>
+  <rect width="820" height="1025" fill="url(#ground)"/>
+  <g opacity=".55" filter="url(#soft)">
+    <path d="M0 180Q200 70 400 180T820 160V420H0Z" fill="#d78958"/>
+    <path d="M0 440Q210 330 410 450T820 420V700H0Z" fill="#63794a"/>
+    <path d="M0 700Q220 570 430 710T820 690V1025H0Z" fill="#7a493e"/>
+  </g>
+  <g stroke="#493c31" stroke-opacity=".32" stroke-width="5">
+    <g fill="url(#evergreen)">
+      <circle cx="70" cy="100" r="105"/><circle cx="250" cy="105" r="125"/><circle cx="475" cy="95" r="120"/><circle cx="700" cy="115" r="135"/>
+      <circle cx="145" cy="310" r="145"/><circle cx="385" cy="300" r="155"/><circle cx="650" cy="315" r="160"/>
+      <circle cx="45" cy="560" r="130"/><circle cx="290" cy="535" r="160"/><circle cx="560" cy="560" r="165"/><circle cx="785" cy="550" r="125"/>
+      <circle cx="145" cy="810" r="170"/><circle cx="425" cy="810" r="175"/><circle cx="700" cy="815" r="180"/>
+      <circle cx="35" cy="1000" r="140"/><circle cx="320" cy="1010" r="160"/><circle cx="610" cy="1000" r="175"/>
+    </g>
+    <g fill="url(#leaf)">
+      <circle cx="150" cy="155" r="72"/><circle cx="335" cy="160" r="82"/><circle cx="590" cy="165" r="85"/>
+      <circle cx="275" cy="375" r="82"/><circle cx="500" cy="385" r="88"/><circle cx="755" cy="390" r="72"/>
+      <circle cx="95" cy="610" r="76"/><circle cx="405" cy="615" r="84"/><circle cx="680" cy="625" r="83"/>
+      <circle cx="230" cy="875" r="86"/><circle cx="535" cy="870" r="88"/><circle cx="790" cy="900" r="70"/>
+    </g>
+  </g>
+  <g fill="#f2d89b" opacity=".65">
+    <circle cx="195" cy="255" r="13"/><circle cx="550" cy="270" r="10"/><circle cx="345" cy="475" r="12"/>
+    <circle cx="610" cy="475" r="13"/><circle cx="175" cy="700" r="11"/><circle cx="470" cy="735" r="12"/><circle cx="740" cy="740" r="10"/>
+  </g>
+  <rect width="820" height="1025" fill="none" stroke="#fff4df" stroke-opacity=".18" stroke-width="18"/>
+</svg>

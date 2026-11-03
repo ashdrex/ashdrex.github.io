@@ -20,7 +20,7 @@
 
 - id: skills
   i18n: nav.skills
-  name: Skills
+  name: Awards
   tpl: skills.html
   css: team
 

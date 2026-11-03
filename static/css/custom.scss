@@ -1,9 +1,211 @@
 ---
-
 ---
-
 @import "search";
 @import "pygments";
 @import "open_sans";
 @import "roboto";
 @import "style";
+
+body {
+  overflow-x: hidden;
+}
+
+.container,
+.container-fluid {
+  max-width: 1200px;
+  width: 100%;
+}
+
+.row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+#i18_link .row > .col-sm-4 {
+  text-align: center;
+}
+
+#i18_link .team-member {
+  display: inline-block;
+  width: 100%;
+  max-width: 420px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#i18_link .team-member h4,
+#i18_link .team-member p,
+#i18_link .team-member .list-inline.social-icon {
+  text-align: center;
+}
+
+#i18_link .list-inline.social-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  margin: 12px auto 0;
+  padding-left: 0;
+}
+
+#i18_link .list-inline.social-icon li {
+  display: inline-block;
+}
+
+#i18_projects .row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+}
+
+#i18_projects .col-sm-6 {
+  display: flex;
+}
+
+#i18_projects .team-member {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 100%;
+  height: 100%;
+  padding: 22px 18px 18px;
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.18);
+  border: 1px solid rgba(83, 52, 37, 0.08);
+  box-shadow: 0 10px 22px rgba(92, 62, 42, 0.08);
+}
+
+#i18_projects .team-member img,
+#i18_projects .team-member .img-responsive {
+  width: 110px;
+  height: 110px;
+  object-fit: cover;
+  border-radius: 16px;
+  display: block;
+  margin: 0 auto 18px;
+}
+
+#i18_projects .team-member h4 {
+  margin-top: 0;
+  margin-bottom: 12px;
+  text-align: center;
+}
+
+#i18_projects .team-member p {
+  margin-bottom: 0;
+  min-height: 92px;
+  text-align: center;
+}
+
+#i18_projects .team-member .img-small {
+  width: 110px !important;
+  height: 110px !important;
+  object-fit: cover !important;
+}
+
+#i18_projects .col-sm-offset-3 {
+  margin-left: 0;
+}
+
+section.features,
+section.gray-section,
+section.navy-section,
+section.contact,
+section.project,
+section.testimonials,
+section.team {
+  padding-left: 18px;
+  padding-right: 18px;
+}
+
+.card,
+.card-header {
+  width: min(100%, 760px) !important;
+  max-width: 100% !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.team-member {
+  margin: 0 auto;
+}
+
+.team-member img,
+.img-responsive {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* FORCE BANNER TO SHOW MIDDLE/LOWER PART OF IMAGE */
+#inSlider {
+  position: relative;
+  min-height: 620px;
+  overflow: hidden;
+}
+
+#inSlider .header-back {
+  min-height: 620px !important;
+  background-position: center 35% !important;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  background-attachment: scroll !important;
+}
+
+/* SCROLL BUTTON */
+.banner-scroll {
+  position: absolute;
+  left: 50%;
+  bottom: 26px;
+  transform: translateX(-50%);
+  z-index: 20;
+}
+
+.banner-scroll .btn {
+  background: rgba(0, 0, 0, 0.45);
+  border: 1px solid rgba(255, 255, 255, 0.45);
+  color: white;
+  border-radius: 999px;
+  padding: 10px 22px;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  transition: 0.2s ease;
+}
+
+.banner-scroll .btn:hover {
+  background: rgba(255, 255, 255, 0.16);
+  border-color: rgba(255, 255, 255, 0.7);
+}
+
+@media (max-width: 768px) {
+  #inSlider,
+  .header-back {
+    min-height: 380px;
+  }
+
+  #inSlider .header-back {
+    background-position: center 40% !important;
+  }
+
+  #i18_projects .row {
+    display: block;
+  }
+
+  #i18_projects .col-sm-6 {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .card,
+  .card-header {
+    width: 100% !important;
+  }
+
+  .row {
+    margin-left: -10px;
+    margin-right: -10px;
+  }
+}

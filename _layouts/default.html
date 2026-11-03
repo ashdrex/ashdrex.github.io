@@ -19,6 +19,31 @@ layout: compress
 
     {{ content }}
 
+    {% if page.url == '/resume/' %}
+    <script>
+    (function () {
+      var art = document.querySelector('.atn-art');
+      if (!art) return;
+
+      var image = art.querySelector('img');
+      var source = {{ site.author.avatar | prepend: site.baseurl | jsonify }};
+
+      if (!image) {
+        image = document.createElement('img');
+        art.textContent = '';
+        art.appendChild(image);
+      }
+
+      image.src = source;
+      image.alt = 'Profile image';
+      image.width = 820;
+      image.height = 1025;
+      image.loading = 'eager';
+      image.decoding = 'async';
+    }());
+    </script>
+    {% endif %}
+
     {% if page.title != 'index' %}
         {% include foot.html %}
     {% else %}

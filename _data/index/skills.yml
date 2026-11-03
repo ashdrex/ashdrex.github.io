@@ -1,6 +1,6 @@
 # skills section data
 
-label: Ability
-id : cs
-aspects: Linux, Windows, Mac, Python, C, Java, Github, Vim, HTML/CSS, Machine Learning
-percentage: 100, 70, 70, 100, 80, 50, 100, 100, 80, 100
+label: Ικανότητες
+id : ecolab
+aspects: Οικολογία, Ανάλυση Δεδομένων, Μετα-ανάλυση, Προστασία της Βιοποικιλότητας, Χωρική Οικολογία, Γεωγραφικά Συστήματα Πληροφοριών, R, Python, GitHub, Μελέτη Οικοτόπων
+percentage: 100, 100, 100, 95, 95, 90, 100, 100, 100, 95

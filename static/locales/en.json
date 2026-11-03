@@ -1,54 +1,65 @@
 {
-  "website":{
-    "title": "Jack's blog"
+  "website": {
+    "title": "Dr. Elina Takola"
   },
-  "nav":{
+  "nav": {
     "home": "Home",
     "about_me": "About",
-    "skills": "Skills",
+    "skills": "Awards",
     "projects": "Projects",
     "career": "Career",
-    "blog": "Blog",
-    "link": "Link"
+    "blog": "Resume",
+    "link": "Contact"
   },
-  "about_me":{
+  "about_me": {
     "about_me": "About Me",
-    "des": "I am a Full Stack engineer with website development, automation Ops and writing scripts experience. Life is a continuous learning process, so work makes me more rigorous, travel makes my life more colorful. I can make lots of friends when I coding and travel."
+    "des": "I am a Greek ecologist and meta-analyst working at the Helmholtz Centre for Environmental Research – UFZ in Leipzig. My research focuses on animal habitat use, landscape ecology, and evidence synthesis for biodiversity conservation."
   },
-  "skills":{
-    "my_skills": "My Skills"
+  "skills": {
+    "my_skills": "Awards"
   },
-  "projects":{
+  "projects": {
     "my_projects": "My Projects",
-    "jalpc": "This project is my project. I use javescript to get repo's information all my repos have only one request.",
-    "cpython": "This project is other's project. I use another request to get repo's information.",
+    "ecologicalnicheevidencesynthesis": "Evidence synthesis for ecological niches and climate-driven biodiversity patterns.",
+    "individualised_niches": "Analysis of individual niche variation and habitat selection across ecological gradients.",
+    "noveltyat2ndglance": "Meta-analytic evaluation of novelty and behavioural research in animal ecology.",
+    "surrounding_landscapes": "Spatial analysis of landscapes and ecological processes across scales.",
+    "jalpc": "This project is my project.",
+    "cpython": "This is another person's GitHub project.",
     "familycode": "This is another project."
   },
-  "career":{
-    "my_career": "My Career",
+  "career": {
+    "my_career": "My Experience",
+    "ufz": "UFZ – Helmholtz Centre for Environmental Research",
+    "ufz_desc": "Research on ecological systems, meta-analysis, and evidence synthesis to support biodiversity conservation.",
+    "ufz_date": "2022–present",
+    "ufz_job": "Researcher / Meta-analyst",
+    "research": "University / Research Centre",
+    "research_desc": "Research on habitat use, land use, and synthetic ecology with emphasis on data interpretation and synthesis.",
+    "research_date": "2018–2022",
+    "research_job": "Researcher / Postgraduate",
     "nextcode": "Nextcode",
-    "nextcode_des": "Now I am in Nextcode and develop website with Python code for genetic analysis.",
+    "nextcode_des": "Developed websites and data pipelines for genetic analysis projects.",
     "nextcode_date": "Apr. 2016",
     "nextcode_job": "Python Developer",
     "netease": "Netease Game",
-    "netease_des": "In Netease game, I learned game service system and use Python code for ops.",
+    "netease_des": "Worked on server-side systems and automated operations for game infrastructure.",
     "netease_date": "Jun. 2015",
     "netease_job": "Dev Ops",
     "ucloud": "Ucloud",
-    "ucloud_des": "In ucloud, I started to deal with servers and Linux system and use shell scripts to manage massive server.",
+    "ucloud_des": "Managed servers and built shell-based automation systems for large-scale infrastructure.",
     "ucloud_date": "Sep. 2013",
     "ucloud_job": "Dev Ops",
     "college": "Graduation",
-    "college_des": "At July 2013,I graduated from college and started my IT technology tour.",
+    "college_des": "I graduated in 2013 and began my technology career.",
     "college_date": "Jul. 2013",
     "college_job": "Student"
   },
-  "blog":{
-    "my_blog": "My Blog"
+  "blog": {
+    "my_blog": "View Resume (in English)"
   },
-  "link":{
-    "link": "Link",
+  "link": {
+    "link": "Contact Me",
     "view": "views"
   }
-
 }

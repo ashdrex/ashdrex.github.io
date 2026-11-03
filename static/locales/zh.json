@@ -1,8 +1,8 @@
 {
-  "website":{
-    "title": "杰克的博客"
+  "website": {
+    "title": "Dr. Elina Takola"
   },
-  "nav":{
+  "nav": {
     "home": "首页",
     "about_me": "关于我",
     "skills": "技能",
@@ -11,44 +11,55 @@
     "blog": "博客",
     "link": "友情链接"
   },
-  "about_me":{
+  "about_me": {
     "about_me": "关于我",
-    "des": "我是一名全栈工程师，有开发网站，运维自动化，编写脚本的经验。人生是不断学习的过程，工作使我变的更严谨，旅行让我的生活更加多彩。通过编程和旅行我能结识到很多朋友。"
+    "des": "我是一名生态学家和元分析研究者，目前在德国莱比锡的赫尔姆霍兹环境研究中心（UFZ）工作。我的研究重点是动物栖息地利用、景观生态学和生物多样性保护证据综合。"
   },
-  "skills":{
-    "my_skills": "我的技能"
+  "skills": {
+    "my_skills": "技能"
   },
-  "projects":{
+  "projects": {
     "my_projects": "我的项目",
-    "jalpc": "这是一个我自己的GitHub项目.",
-    "cpython": "这是一个别人的GitHub项目.",
-    "familycode": "这是另外一个项目."
+    "ecologicalnicheevidencesynthesis": "生态位和气候驱动生物多样性模式的证据综合。",
+    "individualised_niches": "跨生态梯度的个体生态位变化与栖息地选择分析。",
+    "noveltyat2ndglance": "动物生态学中新奇性和行为研究的元分析评估。",
+    "surrounding_landscapes": "不同尺度下景观与生态过程的空间分析。",
+    "jalpc": "这是我的项目。",
+    "cpython": "这是别人的GitHub项目。",
+    "familycode": "这是另一个项目。"
   },
-  "career":{
-    "my_career": "职业生涯",
+  "career": {
+    "my_career": "我的经历",
+    "ufz": "UFZ – Helmholtz Centre for Environmental Research",
+    "ufz_desc": "开展生态系统研究、元分析和证据综合，以支持生物多样性保护。",
+    "ufz_date": "2022–至今",
+    "ufz_job": "研究员 / 元分析师",
+    "research": "大学 / 研究中心",
+    "research_desc": "研究栖息地利用、土地利用和综合生态学，并强调数据解释与综合。",
+    "research_date": "2018–2022",
+    "research_job": "研究员 / 研究生",
     "nextcode": "Nextcode",
-    "nextcode_des": "现在我在Nextcode，使用Python为基因分析项目做网站.",
+    "nextcode_des": "为基因分析项目开发网站和数据流程。",
     "nextcode_date": "2016年4月",
-    "nextcode_job": "Python工程师",
+    "nextcode_job": "Python开发工程师",
     "netease": "网易游戏",
-    "netease_des": "在网易游戏，我了解到游戏体系，并使用Python代码为自动化运维服务.",
+    "netease_des": "参与游戏基础设施的服务端系统和自动化运维。",
     "netease_date": "2015年6月",
     "netease_job": "运维开发工程师",
     "ucloud": "Ucloud",
-    "ucloud_des": "在Ucloud,我开始和服务器、操作系统打交道，并使用shell脚本管理海量服务器.",
+    "ucloud_des": "管理服务器并为大规模基础设施构建 shell 自动化系统。",
     "ucloud_date": "2013年9月",
     "ucloud_job": "运维开发工程师",
     "college": "毕业",
-    "college_des": "2013年7月大学毕业，开始了IT职业生涯",
+    "college_des": "2013年毕业后开始了技术职业生涯。",
     "college_date": "2013年7月",
     "college_job": "学生"
   },
-  "blog":{
-    "my_blog": "我的博客"
+  "blog": {
+    "my_blog": "查看简历 (in English)"
   },
-  "link":{
+  "link": {
     "link": "友情链接",
     "view": "次访问"
   }
-
 }
